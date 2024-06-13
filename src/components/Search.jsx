@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React, { useState } from 'react'
+import Navbar from './Navbar'
 
 const Search = () => {
     const [data, changeData] = useState({
@@ -45,8 +46,9 @@ const [result, setResult] = useState([ ])
     }
     return (
         <div>
+            <Navbar/>
 
-            <h1 align="center"><u>Search Book</u></h1><br></br>
+            <h1 align="center"><u>Search Donar</u></h1><br></br>
             <div className="container">
                 <div className="row">
                     <div className="col">
