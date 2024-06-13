@@ -37,8 +37,6 @@ const ViewUsers = () =>{
                                     <th scope="col">bloodGrp </th>
                                     <th scope="col">disease </th>
                                     <th scope="col">gender </th>
-                                    <th scope="col">userName </th>
-                                    <th scope="col">password </th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -56,8 +54,6 @@ const ViewUsers = () =>{
                                             <td>{value.bloodGrp}</td>
                                             <td>{value.disease}</td>
                                             <td>{value.gender}</td>
-                                            <td>{value.userName}</td>
-                                            <td>{value.password}</td>
                                         </tr>
                                     }
                                 )}
